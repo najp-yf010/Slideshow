@@ -13,6 +13,12 @@
 		F419212B2AFB7A8E0023C01B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F41921292AFB7A8E0023C01B /* Main.storyboard */; };
 		F419212D2AFB7A8F0023C01B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F419212C2AFB7A8F0023C01B /* Assets.xcassets */; };
 		F41921302AFB7A8F0023C01B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F419212E2AFB7A8F0023C01B /* LaunchScreen.storyboard */; };
+		F41921382AFB7EC10023C01B /* MagnificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41921372AFB7EC10023C01B /* MagnificationView.swift */; };
+		F48F00D72B034230009A648E /* kuma.png in Resources */ = {isa = PBXBuildFile; fileRef = F48F00D22B03422F009A648E /* kuma.png */; };
+		F48F00D82B034230009A648E /* neko.png in Resources */ = {isa = PBXBuildFile; fileRef = F48F00D32B03422F009A648E /* neko.png */; };
+		F48F00D92B034230009A648E /* usagi.png in Resources */ = {isa = PBXBuildFile; fileRef = F48F00D42B03422F009A648E /* usagi.png */; };
+		F48F00DA2B034230009A648E /* buta.png in Resources */ = {isa = PBXBuildFile; fileRef = F48F00D52B034230009A648E /* buta.png */; };
+		F48F00DB2B034230009A648E /* inu.png in Resources */ = {isa = PBXBuildFile; fileRef = F48F00D62B034230009A648E /* inu.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		F419212C2AFB7A8F0023C01B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F419212F2AFB7A8F0023C01B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F41921312AFB7A8F0023C01B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F41921372AFB7EC10023C01B /* MagnificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationView.swift; sourceTree = "<group>"; };
+		F48F00D22B03422F009A648E /* kuma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kuma.png; sourceTree = "<group>"; };
+		F48F00D32B03422F009A648E /* neko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = neko.png; sourceTree = "<group>"; };
+		F48F00D42B03422F009A648E /* usagi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usagi.png; sourceTree = "<group>"; };
+		F48F00D52B034230009A648E /* buta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buta.png; sourceTree = "<group>"; };
+		F48F00D62B034230009A648E /* inu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inu.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +71,16 @@
 				F41921232AFB7A8E0023C01B /* AppDelegate.swift */,
 				F41921252AFB7A8E0023C01B /* SceneDelegate.swift */,
 				F41921272AFB7A8E0023C01B /* ViewController.swift */,
+				F41921372AFB7EC10023C01B /* MagnificationView.swift */,
 				F41921292AFB7A8E0023C01B /* Main.storyboard */,
 				F419212C2AFB7A8F0023C01B /* Assets.xcassets */,
 				F419212E2AFB7A8F0023C01B /* LaunchScreen.storyboard */,
 				F41921312AFB7A8F0023C01B /* Info.plist */,
+				F48F00D52B034230009A648E /* buta.png */,
+				F48F00D62B034230009A648E /* inu.png */,
+				F48F00D22B03422F009A648E /* kuma.png */,
+				F48F00D32B03422F009A648E /* neko.png */,
+				F48F00D42B03422F009A648E /* usagi.png */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -125,9 +143,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F48F00DA2B034230009A648E /* buta.png in Resources */,
+				F48F00D92B034230009A648E /* usagi.png in Resources */,
+				F48F00D82B034230009A648E /* neko.png in Resources */,
 				F41921302AFB7A8F0023C01B /* LaunchScreen.storyboard in Resources */,
 				F419212D2AFB7A8F0023C01B /* Assets.xcassets in Resources */,
+				F48F00D72B034230009A648E /* kuma.png in Resources */,
 				F419212B2AFB7A8E0023C01B /* Main.storyboard in Resources */,
+				F48F00DB2B034230009A648E /* inu.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +163,7 @@
 			files = (
 				F41921282AFB7A8E0023C01B /* ViewController.swift in Sources */,
 				F41921242AFB7A8E0023C01B /* AppDelegate.swift in Sources */,
+				F41921382AFB7EC10023C01B /* MagnificationView.swift in Sources */,
 				F41921262AFB7A8E0023C01B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
