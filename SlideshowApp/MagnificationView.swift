@@ -12,10 +12,7 @@ class MagnificationView: UIViewController {
     
     @IBOutlet weak var MagnificationImage: UIImageView!
     
-    
     var Image = UIImage()
-    
-    //let POP = ViewController().nowImage
     
     override func viewDidLoad() {
         super.viewDidLoad()

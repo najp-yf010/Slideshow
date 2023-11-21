@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,13 +13,13 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SlideshowApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jia-jB-WYr">
-                                <rect key="frame" x="64.666666666666671" y="551" width="56" height="35"/>
+                                <rect key="frame" x="76.333333333333329" y="489" width="59.999999999999986" height="35"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="56" id="6Zr-tc-tbj"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="6Zr-tc-tbj"/>
                                     <constraint firstAttribute="height" constant="35" id="RHs-Ia-fpa"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
@@ -29,10 +29,10 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="z1c-Og-kBR">
-                                <rect key="frame" x="65.666666666666686" y="159" width="262" height="326"/>
+                                <rect key="frame" x="89" y="97" width="250" height="326"/>
                                 <gestureRecognizers/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="262" id="VJm-Xr-Fcc"/>
+                                    <constraint firstAttribute="width" constant="250" id="VJm-Xr-Fcc"/>
                                     <constraint firstAttribute="height" constant="326" id="tSo-ni-KVG"/>
                                 </constraints>
                                 <connections>
@@ -40,10 +40,10 @@
                                 </connections>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Wj-PH-z9G">
-                                <rect key="frame" x="168.66666666666666" y="551" width="56" height="35"/>
+                                <rect key="frame" x="184" y="489" width="60" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="mIg-h7-6cd"/>
-                                    <constraint firstAttribute="width" constant="56" id="xnF-MQ-BLr"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="xnF-MQ-BLr"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="戻る"/>
@@ -52,10 +52,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F4N-sG-nb4">
-                                <rect key="frame" x="270.66666666666669" y="551" width="56" height="35"/>
+                                <rect key="frame" x="290.33333333333331" y="489" width="60" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="eUv-UV-c65"/>
-                                    <constraint firstAttribute="width" constant="56" id="j7G-2L-2M8"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="j7G-2L-2M8"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="再生"/>
@@ -69,7 +69,7 @@
                         <constraints>
                             <constraint firstItem="Jia-jB-WYr" firstAttribute="top" secondItem="z1c-Og-kBR" secondAttribute="bottom" constant="66" id="5GC-xf-Djr"/>
                             <constraint firstItem="F4N-sG-nb4" firstAttribute="top" secondItem="z1c-Og-kBR" secondAttribute="bottom" constant="66" id="Ljn-v9-TL4"/>
-                            <constraint firstItem="z1c-Og-kBR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="Pan-iY-PTN"/>
+                            <constraint firstItem="z1c-Og-kBR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="Pan-iY-PTN"/>
                             <constraint firstItem="z1c-Og-kBR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iDv-WF-FiL"/>
                             <constraint firstItem="F4N-sG-nb4" firstAttribute="leading" secondItem="5Wj-PH-z9G" secondAttribute="trailing" constant="46.329999999999998" id="iWx-ka-NQT"/>
                             <constraint firstItem="5Wj-PH-z9G" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="o6Y-ze-AA2"/>
@@ -93,20 +93,20 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-269.46564885496184" y="-27.464788732394368"/>
+            <point key="canvasLocation" x="-270" y="-27.464788732394368"/>
         </scene>
         <!--Magnification View-->
         <scene sceneID="wX5-yz-sLA">
             <objects>
                 <viewController id="UgC-sr-huC" customClass="MagnificationView" customModule="SlideshowApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="i9f-Ba-14M">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="916"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4uQ-ml-Opi">
-                                <rect key="frame" x="168.66666666666666" y="719" width="56" height="35"/>
+                                <rect key="frame" x="184" y="550" width="60" height="35"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="56" id="RWh-7h-Liy"/>
+                                    <constraint firstAttribute="width" constant="60" id="RWh-7h-Liy"/>
                                     <constraint firstAttribute="height" constant="35" id="i6I-Ee-667"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
@@ -116,10 +116,10 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sEB-tA-bNq">
-                                <rect key="frame" x="19.666666666666657" y="90" width="354" height="544"/>
+                                <rect key="frame" x="64" y="50" width="300" height="470"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="354" id="08K-lE-PGR"/>
-                                    <constraint firstAttribute="height" constant="544" id="13B-jV-zrd"/>
+                                    <constraint firstAttribute="width" constant="300" id="08K-lE-PGR"/>
+                                    <constraint firstAttribute="height" constant="470" id="13B-jV-zrd"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -128,8 +128,8 @@
                         <constraints>
                             <constraint firstItem="sEB-tA-bNq" firstAttribute="centerX" secondItem="i9f-Ba-14M" secondAttribute="centerX" id="PZb-RJ-eeJ"/>
                             <constraint firstItem="4uQ-ml-Opi" firstAttribute="centerX" secondItem="i9f-Ba-14M" secondAttribute="centerX" id="Qz4-oS-nb7"/>
-                            <constraint firstItem="sEB-tA-bNq" firstAttribute="top" secondItem="0uT-F5-jQe" secondAttribute="top" constant="90" id="UZK-Bz-NQU"/>
-                            <constraint firstItem="4uQ-ml-Opi" firstAttribute="top" secondItem="sEB-tA-bNq" secondAttribute="bottom" constant="85" id="ysy-9t-icN"/>
+                            <constraint firstItem="sEB-tA-bNq" firstAttribute="top" secondItem="0uT-F5-jQe" secondAttribute="top" constant="50" id="UZK-Bz-NQU"/>
+                            <constraint firstItem="4uQ-ml-Opi" firstAttribute="top" secondItem="sEB-tA-bNq" secondAttribute="bottom" constant="30" id="ysy-9t-icN"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="raH-bu-baX"/>

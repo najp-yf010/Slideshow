@@ -124,10 +124,8 @@ class ViewController: UIViewController {
     @IBAction func pauseTimer(_ sender: Any) {
         if self.timer_sec > 7 {
             self.timer_sec = 0
-            self.timerLabel.text = String(format: "%d", self.timer_sec)
         } else {
             self.timer_sec += 2
-            self.timerLabel.text = String(format: "%d", self.timer_sec)
         }
         
         switch timer_sec {
@@ -154,10 +152,8 @@ class ViewController: UIViewController {
     @IBAction func resetTimer(_ sender: Any) {
         if self.timer_sec < 2 {
             self.timer_sec = 8
-            self.timerLabel.text = String(format: "%d", self.timer_sec)
         } else {
             self.timer_sec -= 2
-            self.timerLabel.text = String(format: "%d", self.timer_sec)
         }
         
         switch timer_sec {
